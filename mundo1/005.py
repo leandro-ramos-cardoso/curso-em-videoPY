@@ -1,0 +1,5 @@
+n1 = int(input('Informe um número: '))
+print('Número escolhido: {}'.format(n1))
+print('='*20)
+print('Antecessor: {}'.format(n1 - 1))
+print('Sucessor: {}'.format(n1 + 1))
