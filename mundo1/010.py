@@ -1,0 +1,7 @@
+d = float(input('Quanto voçê tem de dinheiro? R$ '))
+print('\33[1;33m- CONVERSÃO DE MOEDAS -\33[m'.center(45))
+print('\33[1;32mREAIS: R${:.2f}\33[m'.format(d))
+print('\33[1;34mDOLARES: US${:.2f}\33[m'.format(d / 3.45))
+print('IENE: JPY{:.2f}'.format(d * 31.51))
+print('\33[1;33m- FIM -'.center(38))
+#print('Com R${:.2f} você pode comprar US${:.2f}.'.format(d, d / 3.45))
