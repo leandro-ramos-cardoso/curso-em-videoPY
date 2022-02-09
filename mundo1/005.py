@@ -1,5 +1,0 @@
-print('\33[1;35mANTECESSOR E SUCESSOR\33[m')
-print('\33[1;33m-=-\33[m'*8)
-num = int(input('Digite um número: '))
-print('Antecessor de {} é {}.'.format(num, num - 1))
-print('Sucessor de {} é {}.'.format(num, num + 1))
